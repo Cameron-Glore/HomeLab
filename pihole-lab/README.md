@@ -2,25 +2,27 @@
 
 ## Overview
 
-This lab documents the deployment of Pi-hole on a Raspberry Pi Zero 2 W to provide network-wide DNS filtering. Pi-hole acts as a DNS sinkhole that blocks advertisements, tracking domains, and malicious sites across a home network.
+This project documents my planned deployment of Pi-hole on a Raspberry Pi Zero 2 W for network-wide DNS filtering on my home network.
 
-This project demonstrates practical experience with Linux administration, DNS configuration, and network security.
+Pi-hole will act as a DNS sinkhole to block ads, tracking domains, and potentially malicious domains while giving visibility into DNS traffic across connected devices.
+
+This lab is being documented in phases. The planning and design are being completed first, with deployment and testing to follow once the Raspberry Pi hardware arrives.
 
 ---
 
-## Lab Objectives
+## Objective
 
-• Deploy Pi-hole on a Raspberry Pi  
-• Configure a DNS filtering server for a home network  
-• Monitor DNS traffic and blocked domains  
-• Gain experience with Linux server administration
+- Deploy Pi-hole on a Raspberry Pi Zero 2 W
+- Configure it for DNS filtering on a home network
+- Monitor DNS requests and blocked domains
+- Build hands-on experience with Linux, DNS, and network security
 
 ---
 
 ## Hardware
 
 - Raspberry Pi Zero 2 W
-- 16GB MicroSD card
+- MicroSD card
 - Power supply
 - Home WiFi network
 
@@ -29,106 +31,41 @@ This project demonstrates practical experience with Linux administration, DNS co
 ## Software
 
 - Raspberry Pi OS Lite
-- Pi-hole DNS filtering software
-- SSH for remote administration
+- Pi-hole
+- SSH for remote access
 
 ---
 
-## Network Architecture
+## Planned Network Design
 
 Device → Router → Pi-hole DNS Server → Internet
 
-All DNS requests are routed through Pi-hole, allowing it to filter unwanted domains.
+In this setup, client devices will send DNS requests to Pi-hole. Pi-hole will filter unwanted requests and forward approved DNS traffic to an upstream DNS provider.
 
 ---
 
-## Installation Steps
+## Deployment Plan
 
-### 1 Install Raspberry Pi OS Lite
+Once the Raspberry Pi arrives, the deployment plan is:
 
-Using Raspberry Pi Imager:
-
-1. Insert MicroSD card
-2. Select Raspberry Pi OS Lite
-3. Enable SSH
-4. Configure WiFi
-5. Write image to SD card
-
----
-
-### 2 Boot the Raspberry Pi
-
-Insert the SD card and power on the device.
-
-Locate the Pi's IP address through the router or network scan.
+1. Flash Raspberry Pi OS Lite to the MicroSD card
+2. Enable SSH and configure WiFi
+3. Boot the Raspberry Pi Zero 2 W
+4. Find the Pi’s IP address on the network
+5. Connect to the Pi with SSH
+6. Update the system
+7. Install Pi-hole
+8. Enable the web admin interface
+9. Configure a test device to use Pi-hole for DNS
+10. Validate DNS filtering and review dashboard statistics
 
 ---
 
-### 3 Connect via SSH
+## Planned Installation Commands
 
-ssh username@raspberrypi_ip
+After connecting to the Raspberry Pi:
 
----
-
-### 4 Update the system
-
-sudo apt update  
+```bash
+sudo apt update
 sudo apt upgrade -y
-
----
-
-### 5 Install Pi-hole
-
 curl -sSL https://install.pi-hole.net | bash
-
-During installation:
-
-- Choose upstream DNS provider
-- Enable the web admin interface
-- Record the admin password
-
----
-
-## Accessing the Dashboard
-
-Open a browser and navigate to:
-
-http://raspberrypi_ip/admin
-
-The dashboard provides:
-
-- DNS query statistics
-- Blocked domain reports
-- Client activity monitoring
-
----
-
-## Results
-
-After configuring a test device to use the Pi-hole server as its DNS provider, the system successfully blocked advertising and tracking domains.
-
-The dashboard provides real-time visibility into DNS queries and filtering performance.
-
----
-
-## Skills Demonstrated
-
-Linux server administration  
-DNS configuration  
-Network troubleshooting  
-Security filtering and monitoring
-
----
-
-## Future Improvements
-
-- Add custom blocklists
-- Implement network-wide DNS configuration
-- Integrate monitoring tools
-- Add network traffic analysis
-
----
-
-## Screenshots
-
-Screenshots of the Pi-hole dashboard and DNS query logs are stored in the screenshots folder.
