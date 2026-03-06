@@ -24,6 +24,7 @@ I previously served in the United States Army as a Military Police Soldier respo
 ## Labs
 
 - [Pi-hole DNS Filtering Lab](pihole-lab/README.md)
+- [Wireshark Network Traffic Analysis](wireshark-network-analysis/README.md)
 - Virtualization lab (coming soon)
 - Linux administration lab (coming soon)
 - Network packet analysis (coming soon)
