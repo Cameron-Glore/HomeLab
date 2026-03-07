@@ -93,4 +93,14 @@ Examining these fields helps understand how network communication occurs.
 
 ## Screenshots
 
-Screenshots of packet captures and filtered traffic are included in the screenshots folder.
+### Packet Capture Running
+![Packet Capture](screenshots/capture-running.png)
+
+### DNS Query Filtering
+![DNS Filter](screenshots/dns-filter.png)
+
+### HTTPS Traffic
+![HTTPS Traffic](screenshots/https-traffic.png)
+
+### Packet Details
+![Packet Details](screenshots/packet-details.png)
