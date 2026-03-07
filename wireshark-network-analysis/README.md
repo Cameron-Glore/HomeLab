@@ -97,10 +97,8 @@ Examining these fields helps understand how network communication occurs.
 ![Packet Capture](screenshots/capture-running.png)
 
 ### DNS Query Filtering
-![DNS Filter](screenshots/dns-filter.png)
+![DNS traffic](screenshots/dns-traffic.png)
 
 ### HTTPS Traffic
 ![HTTPS Traffic](screenshots/https-traffic.png)
 
-### Packet Details
-![Packet Details](screenshots/packet-details.png)
