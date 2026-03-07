@@ -46,8 +46,6 @@ The scan also detected **23 frames of activity**, indicating that the network wa
 ## Scan Results Screenshot
 
 ![WiFi Scan Results](screenshots/wifi-scan-results1.png)
-(screenshots/wifi-scan-results2.png)
-(screenshots/wifi-scan-results3.png)
 
 ---
 
