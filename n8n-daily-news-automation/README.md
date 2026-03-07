@@ -8,6 +8,10 @@ The workflow runs on a daily schedule, retrieves articles from multiple RSS sour
 
 The automation is hosted on a VPS provided by Hostinger using their n8n deployment environment.
 
+
+### Workflow Overview
+![Workflow Overview](screenshots/workflow-overview.png)
+
 ---
 
 ## Architecture
@@ -52,6 +56,9 @@ Purpose:
 - provide a consistent daily news briefing
 - eliminate manual runs
 
+### Schedule Trigger
+![Schedule Trigger](screenshots/schedule-trigger.png)
+
 ---
 
 ## Step 2 — RSS Feed Collection
@@ -64,6 +71,9 @@ Each RSS feed returns structured data including:
 - author
 - snippet
 - article link
+
+### RSS Feed Nodes
+![RSS Feed Nodes](screenshots/rss-feeds.png)
 
 ---
 
@@ -81,6 +91,9 @@ Total possible output:
 
 This prevents excessive message output.
 
+### Limit Nodes
+![Limit Nodes](screenshots/limit-nodes.png)
+
 ---
 
 ## Step 4 — Merge Feeds
@@ -94,6 +107,9 @@ Purpose:
 - combine multiple data sources
 - simplify output
 - create a unified news feed
+
+### Merge Node
+![Merge Node](screenshots/merge-node.png)
 
 ---
 
@@ -109,6 +125,10 @@ Each message contains:
 - Title
 - Content snippet
 - Article link
+
+
+### Discord Output
+![Discord Output](screenshots/discord-output.png)
 
 ---
 
