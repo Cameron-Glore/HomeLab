@@ -58,6 +58,14 @@ Docker was used to deploy Uptime Kuma as a containerized service.
 
 A Docker Compose configuration was created to run the service with persistent storage using a named volume.
 
+### Docker Compose File
+
+![Docker Compose](screenshots/docker-compose.png)
+
+### Running Container
+
+![Docker Container Running](screenshots/docker-ps.png)
+
 ---
 
 ## Step 3 — Uptime Kuma Deployment
@@ -80,6 +88,10 @@ Example monitors included:
 
 These monitors provided basic visibility into the health of the server and hosted services.
 
+### Uptime Kuma Dashboard
+
+![Uptime Kuma Dashboard](screenshots/uptime-kuma-dashboard.png)
+
 ---
 
 ## Step 5 — Discord Notifications
@@ -88,6 +100,11 @@ A Discord webhook was created in a private Discord server and configured inside 
 
 This enabled automatic alert delivery when a monitored service changed status.
 
+
+### Discord Notification Setup
+
+![Discord Notification Setup](screenshots/discord-notification-setup.png)
+
 ---
 
 ## Step 6 — Mobile Alerting
@@ -95,6 +112,14 @@ This enabled automatic alert delivery when a monitored service changed status.
 Discord alerts were received on an iPhone using the Discord mobile app.
 
 This created a lightweight mobile monitoring solution for remote infrastructure visibility.
+
+### Discord Output
+
+![Discord Output](screenshots/discord-output.png)
+
+### Discord Alert Example
+
+![Discord Alert](screenshots/discord-alert.png)
 
 ---
 
