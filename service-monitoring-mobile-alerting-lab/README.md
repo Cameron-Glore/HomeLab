@@ -12,7 +12,7 @@ This lab demonstrates practical skills in VPS administration, Docker deployment,
 
 ## Architecture
 
-```text
+
 Hostinger VPS
    ↓
 Docker
