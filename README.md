@@ -27,6 +27,7 @@ I previously served in the United States Army as a Military Police Soldier respo
 - [Wireshark Network Traffic Analysis](wireshark-network-analysis/README.md)
 - [Wireless Network Analysis Lab](wifi-network-analysis/README.md)
 - [n8n Daily News Automation Lab](n8n-daily-news-automation/README.md)
+- [Service Monitoring and Mobile Alerting Lab](service-monitoring-mobile-alerting-lab/README.md)
 - Virtualization lab (coming soon)
 - Linux administration lab (coming soon)
 - Network packet analysis (coming soon)
