@@ -30,4 +30,3 @@ I previously served in the United States Army as a Military Police Soldier respo
 - [Service Monitoring and Mobile Alerting Lab](service-monitoring-mobile-alerting-lab/README.md)
 - Virtualization lab (coming soon)
 - Linux administration lab (coming soon)
-- Network packet analysis (coming soon)
