@@ -113,10 +113,6 @@ Discord alerts were received on an iPhone using the Discord mobile app.
 
 This created a lightweight mobile monitoring solution for remote infrastructure visibility.
 
-### Discord Output
-
-![Discord Output](screenshots/discord-output.png)
-
 ### Discord Alert Example
 
 ![Discord Alert](screenshots/discord-alert.png)
