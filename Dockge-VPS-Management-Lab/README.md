@@ -65,7 +65,7 @@ This phase included:
 - Testing Docker access from the command line
 
 ### Docker Version Check
-![Docker Version Check](screenshots/02-docker-version-check.png)
+![Docker Version Check](screenshots/docker-version-check.png)
 
 * * *
 
@@ -81,7 +81,7 @@ Deployment steps included:
 - Launching Dockge with `docker compose up -d`
 
 ### Dockge Compose File
-![Dockge Compose File](screenshots/03-dockge-compose-file.png)
+![Dockge Compose File](screenshots/dockge-compose-file.png)
 
 
 * * *
@@ -98,7 +98,7 @@ This step included:
 - Opening Dockge in a browser
 
 ### Dockge Dashboard
-![Dockge Dashboard](screenshots/05-dockge-dashboard.png)
+![Dockge Dashboard](screenshots/dockge-dashboard.png)
 * * *
 
 ## Step 5 — Docker and Terminal Validation
