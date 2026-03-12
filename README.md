@@ -29,5 +29,6 @@ I previously served in the United States Army as a Military Police Soldier respo
 - [n8n Daily News Automation Lab](n8n-daily-news-automation/README.md)
 - [Service Monitoring and Mobile Alerting Lab](service-monitoring-mobile-alerting-lab/README.md)
 - [Dockge VPS Management Lab](Dockge-VPS-Management-Lab/README.md)
+- [CrowdSec VPS Defesnse Lab](CrowdSec-VPS-Defense-Lab)
 - Virtualization lab (coming soon)
 - Linux administration lab (coming soon)
