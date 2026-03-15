@@ -23,6 +23,7 @@ I previously served in the United States Army as a Military Police Soldier respo
 
 ## Labs
 
+- [Pi5 Private Security Operations Node](Pi5-Private-Security-Node)
 - [Pi-hole DNS Filtering Lab](pihole-lab/README.md)
 - [Wireshark Network Traffic Analysis](wireshark-network-analysis/README.md)
 - [Wireless Network Analysis Lab](wifi-network-analysis/README.md)
